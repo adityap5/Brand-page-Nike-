@@ -9,6 +9,7 @@ html,body{
   width:100%;
   font-family: 'Poppins', sans-serif;
 }
+
 .nav{
   max-width: 1280px;
   height:72px;
@@ -38,4 +39,81 @@ font-size: 20px;
   color: #fff;
 border: none;
 cursor: pointer;
+}
+.hero{
+  display: flex;
+  max-width: 1125px;
+  height: 613px;
+  padding-bottom: 0px;
+position: relative;
+top: 35px;
+margin: 0 auto;
+
+  align-items: center;
+  gap: 80px;
+}
+.hero-left{
+  max-width:595px;
+  max-height: 613px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+}
+.hero-left h1{
+  width: 595px;
+  height: 306px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 108px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 102px; 
+  text-transform: uppercase;
+}
+.hero-left p {
+  width: 404px;
+  height: 91px;
+  color: #5A5959;
+font-size: 16px;
+font-weight: 600;
+line-height: normal;
+}
+.hero-right img{
+  width: 530px;
+  height: 487.062px;
+}
+.market{
+  flex-direction: column;
+  align-items: flex-start;
+  
+  color: #5A5959;
+}
+.market1{
+  display: flex;
+  gap: 16px;
+}
+.btn{
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  
+}
+.hero-left .btn1{
+  background-color:#D01C28;
+  width: 141px;
+  height:41px;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 600;
+  border: none;
+}
+.hero-left .btn2{
+  color: var(--GRAY, #5A5959);
+  width: 141px;
+  height:41px;
+  font-size: 24px;
+  font-weight: 600;
+  border: 1px solid #5A5959;
+  background-color: transparent;
 }
