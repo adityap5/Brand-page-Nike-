@@ -7,3 +7,16 @@ html,body{
   height:100%;
   width:100%;
 }
+.nav{
+  position: relative;
+  width:90%;
+  height:80px;
+  background-color: aqua;
+  left:5%;
+}
+.nav img{
+  position: relative;
+  height:70px;
+  width: 90px;
+  top: 10px;
+}
