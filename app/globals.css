@@ -25,20 +25,27 @@ html,body{
   height:70px;
   width: 90px;
   top: 10px;
+  cursor: pointer;
 }
 .nav .h3s{
   display: flex;
   gap: 32px;
   color: #2E2E2E;
+  cursor: pointer;
+
 }
 .nav button{
 font-size: 20px;
-  height: 30px;
-  width: 80px;
+  height: 31px;
+  width: 75px;
   background-color:#D01C28;
   color: #fff;
 border: none;
 cursor: pointer;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 .hero{
   display: flex;
@@ -92,11 +99,14 @@ line-height: normal;
 .market1{
   display: flex;
   gap: 16px;
+  cursor: pointer;
+
 }
 .btn{
   display: flex;
   align-items: flex-start;
   gap: 40px;
+
   
 }
 .hero-left .btn1{
@@ -107,6 +117,8 @@ line-height: normal;
   font-size: 24px;
   font-weight: 600;
   border: none;
+  cursor: pointer;
+
 }
 .hero-left .btn2{
   color: var(--GRAY, #5A5959);
@@ -116,4 +128,6 @@ line-height: normal;
   font-weight: 600;
   border: 1px solid #5A5959;
   background-color: transparent;
+  cursor: pointer;
+
 }
